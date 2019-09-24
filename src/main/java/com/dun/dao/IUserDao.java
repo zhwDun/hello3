@@ -13,4 +13,6 @@ public interface IUserDao {
      * @return
      */
     List<User> findAll();
+    List<User> findAllE();
+    List<User> findAllED();
 }
